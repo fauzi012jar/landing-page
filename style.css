@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.btn {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.fitur ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fitur li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+.kontak i {
+  margin-right: 8px;
+  color: #007bff;
+  
+}
+    .btn-wa {
+      background: #25D366;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  .fitur li {
+    font-size: 16px;
+  }
+
+  .btn, .btn-wa {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .kontak p {
+    font-size: 16px;
+  }
+}
