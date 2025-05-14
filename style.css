@@ -81,6 +81,10 @@ footer {
   }
 
   .kontak p {
-    font-size: 16px;
+    display: flex;
+    align-items: centre;
+    justify-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
   }
 }
