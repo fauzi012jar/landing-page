@@ -54,8 +54,8 @@ footer {
   padding: 15px 0;
 }
 .kontak i {
-  margin-right: 8px;
-  color: #007bff;
+  width: 20px;
+  text-align: center;
   
 }
     .btn-wa {
@@ -85,6 +85,7 @@ footer {
     align-items: centre;
     justify-content: flex-start;
     gap: 8px;
-    flex-wrap: wrap;
+    padding-left: 20px;
+    margin: 8px 0;
   }
 }
